@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terraform-inspired Static Website</title>
+    <title>Sample Index Page</title>
     <style>
-      body {
-        background-color: #1E1E2F;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-      }
-      h1 {
-        color: #8A2BE2;
-        font-size: 2.5em;
-        margin-bottom: 10px;
-      }
-      p {
-        font-size: 1.2em;
-        max-width: 600px;
-        text-align: center;
-        margin: 10px 20px;
-      }
-      a.button {
-        display: inline-block;
-        margin-top: 20px;
-        padding: 10px 20px;
-        font-size: 1.1em;
-        color: #ffffff;
-        background-color: #8A2BE2;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-      }
-      a.button:hover {
-        background-color: #6A1BB2;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
     </style>
-  </head>
-  <body>
-    <h1>Welcome to My Website</h1>
-    <p>Infrastructure for this static website was created by Terraform.</p>
-    <a href="#" class="button">Learn More</a>
-  </body>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a simple HTML page to demonstrate the basic structure of an HTML document.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
 </html>
